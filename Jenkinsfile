@@ -1,6 +1,6 @@
 pipeline{
 environment {
-registry = "daneskaife/restapp"
+registry = "daneskaife/LGBPython"
         registryCredentials = "dockerhub_ID"
         dockerImage = ""
     }
