@@ -215,5 +215,5 @@ def delete_one(_id):
 # module import protection
 if __name__ == '__main__':
     # get app to serve
-    print(f'Application running on on http://{HOST}:{PORT}/index.html')
-    app.run(host=HOST, port=PORT, debug=True)
+    print(f'Application running on on http://0.0.0.0:{PORT}/index.html')
+    app.run(host='0.0.0.0', port=PORT, debug=True)
